@@ -1,4 +1,4 @@
-﻿# cisco-interface-health
+# cisco-interface-health
 
 Offline triage of Cisco IOS / IOS-XE `show interfaces` output. Paste the output from one switch or fifty and get a ranked list of the ports that need attention, with the likely cause and the next step.
 
@@ -18,6 +18,14 @@ Thresholds are at the top of `ifhealth.py`.
 ## Safety
 
 Pure text parsing with the Python standard library. It never connects to a device, so it is safe to run on output a client hands you.
+
+## Install
+
+```bash
+pip install cisco-interface-health
+```
+
+This installs an `ifhealth` command. You can also run `python ifhealth.py` straight from a clone.
 
 ## Usage
 
@@ -49,3 +57,4 @@ pip install pytest && python -m pytest
 ## License
 
 MIT. See LICENSE. Security reports: see SECURITY.md.
+

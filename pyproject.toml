@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cisco-interface-health"
+version = "0.1.0"
+description = "Offline triage of Cisco IOS / IOS-XE show interfaces output: CRC, duplex mismatch, err-disabled, drops, flapping"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "Arkadiy Ayrapetov" }]
+keywords = ["cisco", "network", "troubleshooting", "netops", "ios-xe"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: System Administrators",
+  "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.urls]
+Homepage = "https://github.com/korpus91/cisco-interface-health"
+Issues = "https://github.com/korpus91/cisco-interface-health/issues"
+
+[project.scripts]
+ifhealth = "ifhealth:main"
+
+[tool.setuptools]
+py-modules = ["ifhealth"]
