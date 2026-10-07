@@ -1,5 +1,7 @@
 # cisco-interface-health
 
+[![ci](https://github.com/korpus91/cisco-interface-health/actions/workflows/ci.yml/badge.svg)](https://github.com/korpus91/cisco-interface-health/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/cisco-interface-health)](https://pypi.org/project/cisco-interface-health/)
+
 Offline triage of Cisco IOS / IOS-XE `show interfaces` output. Paste the output from one switch or fifty and get a ranked list of the ports that need attention, with the likely cause and the next step.
 
 ## What it flags
