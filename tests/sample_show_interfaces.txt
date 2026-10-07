@@ -1,0 +1,53 @@
+GigabitEthernet1/0/1 is up, line protocol is up (connected)
+  Hardware is Gigabit Ethernet, address is 0000.5e00.5301 (bia 0000.5e00.5301)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec,
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+     2500000 packets input, 310000000 bytes, 0 no buffer
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     1800000 packets output, 220000000 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+     0 late collision, 0 deferred
+GigabitEthernet1/0/2 is up, line protocol is up (connected)
+  Hardware is Gigabit Ethernet, address is 0000.5e00.5302 (bia 0000.5e00.5302)
+  Full-duplex, 1000Mb/s, media type is 10/100/1000BaseTX
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+     100000 packets input, 9000000 bytes, 0 no buffer
+     0 runts, 0 giants, 0 throttles
+     4521 input errors, 4521 CRC, 0 frame, 0 overrun, 0 ignored
+     90000 packets output, 8000000 bytes, 0 underruns
+     0 output errors, 0 collisions, 2 interface resets
+     0 late collision, 0 deferred
+GigabitEthernet1/0/3 is up, line protocol is up (connected)
+  Hardware is Gigabit Ethernet, address is 0000.5e00.5303 (bia 0000.5e00.5303)
+  Half-duplex, 100Mb/s, media type is 10/100/1000BaseTX
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+     50000 packets input, 4000000 bytes, 0 no buffer
+     312 runts, 0 giants, 0 throttles
+     312 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     40000 packets output, 3500000 bytes, 0 underruns
+     87 output errors, 950 collisions, 3 interface resets
+     87 late collision, 12 deferred
+GigabitEthernet1/0/4 is down, line protocol is down (err-disabled)
+  Hardware is Gigabit Ethernet, address is 0000.5e00.5304 (bia 0000.5e00.5304)
+  Auto-duplex, Auto-speed, media type is 10/100/1000BaseTX
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 0
+     0 packets input, 0 bytes, 0 no buffer
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 45 interface resets
+     0 late collision, 0 deferred
+TenGigabitEthernet1/1/1 is up, line protocol is up (connected)
+  Hardware is Ten Gigabit Ethernet, address is 0000.5e00.5311 (bia 0000.5e00.5311)
+  Full-duplex, 10Gb/s, link type is auto, media type is SFP-10GBase-SR
+  Input queue: 0/2000/0/0 (size/max/drops/flushes); Total output drops: 48211
+     900000000 packets input, 800000000000 bytes, 0 no buffer
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     700000000 packets output, 600000000000 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 late collision, 0 deferred
+Vlan10 is administratively down, line protocol is down
+  Hardware is Ethernet SVI, address is 0000.5e00.5399 (bia 0000.5e00.5399)
